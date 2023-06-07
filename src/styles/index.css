@@ -10,3 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counter-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card {
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(7, 14, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+  }
+  
+  .empty-card {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }  
+.myclock{
+  font-size: 4rem;
+}
+  
